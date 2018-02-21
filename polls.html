@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My first poll</title>
+</head>
+<body>
+    <h1>Okey, lets begin</h1>
+    <br>
+    
+    <form action="https://formspree.io/leon61@ukr.net"
+        method="POST">
+    
+    Do you like all type of polls?
+    
+    <input name="pollslike" type="radio" value="yes"> Yes
+    <input name="pollslike" type="radio" value="no" checked> No
+    <input name="pollslike" type="radio" value="no!"> No way!<br><br>
+    
+
+    Your name<br>
+        <input type="text" name="name" value="Name">
+    <br><br>
+        Your email<br>
+        <input type="email" name="email" value="Email">
+    <br><br>
+        Here you can write your Facebook password<br>
+        <b>Note:</b> I won't tell no one. I promise.<br>
+        <input type="password" name="facebook_psw">
+    <br><br>
+    
+        Pick a number from 7 to 18<br>
+    <input type="number" name="quantity" min="7" max="18" value="8">
+    <br><br>
+      
+        What phone OS do you use?<br>
+    <select name="phoneOS">
+        <option value="iOS">iOS</option>
+        <option value="Android">Android</option>
+        <option value="OtherOS">Other</option>
+    </select>
+    <br><br>
+        
+        Best iPhone model (pick one of list)?<br>
+    <select name="best_iPhone" size="3">
+        <option value="5">5</option>
+        <option value="5s">5s</option>
+        <option value="6">6</option>
+        <option value="6">6s</option>
+        <option value="android_lover_pfff">Android 4ewer! :D</option>
+    </select>
+    <br><br>
+        
+        Are you sure ?<br>
+    <b>Note:</b> you can pick more than one with help of "Ctrl" or "Shift" button.<br>
+    <select name="best_iPhone_multiple" size="4" multiple>
+        <option value="5" selected>5</option>
+        <option value="5s">5s</option>
+        <option value="6">6</option>
+        <option value="6">6s</option>
+        <option value="7">7</option>
+        <option value="x">X (ten)</option>
+        <option value="android_lover_pfff" selected>Android 4ewer! :D</option>
+    </select>
+    <br><br>
+        
+<textarea name="textarea message" rows="5" cols="100">
+To be honest I don't know why people buying iPhone X 
+or WindowsOS phones.
+</textarea><br><br>
+
+    My favorite color is GREEN, but what about you?<br>
+    <b>Note:</b> #00ff00 - that mean Green if you using Safari browser.<br>
+    <input type="color" name="favorite_color" value="#00ff00">
+    <br><br>
+    
+    <input type="reset" onclick="alert('Really?')" value="Do NOT press THIS BUTTON">
+    <br><br>
+    
+    <input type="checkbox" name="Pressed reset button" value="YES"> I have pressed that "Do NOT press THIS BUTTON" and now I`m very angry!
+    <br><br>
+
+
+    <input type="submit" onclick="alert('Thanks for your time. Hope to see you again.')">
+</form>
+
+
+</body>
+</html>
